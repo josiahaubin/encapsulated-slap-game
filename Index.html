@@ -27,13 +27,19 @@
         <br>
         <button type="button" class="btn btn-danger mt-5"
           onclick="app.controllers.gameController.attackTarget('kick')">Kick</button>
-
       </div>
       <div class="col-md-6">
         <h3 id="targetName">name goes here</h3>
         <h5>Health: <span id="targetHealth">--</span></h5>
         <h5>Hits: <span id="targetHits">--</span></h5>
         <img src="https://i.pinimg.com/236x/34/4c/9e/344c9e82b00a4c47ed5828637b5ec32d.jpg" alt="">
+      </div>
+    </div>
+    <div class="row text-center mt-5">
+      <div class="col-md-12">
+        <button class="btn btn-success" onclick="app.controllers.gameController.addItem(0)">Add Health Potion</button>
+        <button class="btn btn-success" onclick="app.controllers.gameController.addItem(1)">Add Sheild</button>
+        <button class="btn btn-success" onclick="app.controllers.gameController.addItem(2)">Add Speed Shoes</button>
       </div>
     </div>
   </div>

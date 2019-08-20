@@ -27,4 +27,8 @@ export default class GameController {
     _gameService.attackTarget(attack)
     draw()
   }
+  //Let service know that the user wants to add an item to the target
+  addItem(index) {
+    _gameService.addItem(index)
+  }
 }
