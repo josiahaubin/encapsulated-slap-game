@@ -6,9 +6,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
 <body>
+  <div class="container-fluid">
+    <div class="row text-center">
+      <div class="col-md-12">
+        <h1>Simple Slap Game</h1>
+      </div>
+    </div>
+    <div class="row text-center mt-5">
+      <div class="col-md-6">
+        <button type="button" class="btn btn-danger">Slap</button>
+      </div>
+      <div class="col-md-6">
+        <h3 id="targetName">name goes here</h3>
+        <h5>Health: <span id="targetHealth">--</span></h5>
+        <h5>Hits: <span id="targetHits">--</span></h5>
+        <img src="https://i.pinimg.com/236x/34/4c/9e/344c9e82b00a4c47ed5828637b5ec32d.jpg" alt="">
+      </div>
+    </div>
+  </div>
   <script src="app/main.js" type="module"></script>
 </body>
 
