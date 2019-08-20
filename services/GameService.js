@@ -21,6 +21,12 @@ export default class GameService {
     _target.health -= 5
     _target.hits++
   }
+  //Takes away 10 health, and adds one hit
+  kick() {
+    //console.log("kickkk")
+    _target.health -= 10
+    _target.hits++
+  }
 
   get Target() {
     return _target

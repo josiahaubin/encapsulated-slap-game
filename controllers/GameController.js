@@ -30,7 +30,13 @@ export default class GameController {
 
   //Let service know that the user wants to punch the target
   punch() {
-    _gameService.punch();
+    _gameService.punch()
+    draw()
+  }
+
+  //Let service know that the user wants to kick the target
+  kick() {
+    _gameService.kick()
     draw()
   }
 }
