@@ -1,8 +1,10 @@
 import Target from "../model/Target.js";
+import Items from "../model/Items.js";
 
 //PRIVATE
 
 let _target = new Target("Crash Bandicoot", 1, 10, 5);
+let _items = new Items();
 
 //PUBLIC
 export default class GameService {
