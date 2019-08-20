@@ -27,4 +27,10 @@ export default class GameController {
     _gameService.slap()
     draw()
   }
+
+  //Let service know that the user wants to punch the target
+  punch() {
+    _gameService.punch();
+    draw()
+  }
 }
