@@ -19,12 +19,14 @@
     </div>
     <div class="row text-center mt-5">
       <div class="col-md-6">
-        <button type="button" class="btn btn-danger" onclick="app.controllers.gameController.slap()">Slap</button>
+        <button type="button" class="btn btn-danger"
+          onclick="app.controllers.gameController.attackTarget('slap')">Slap</button>
         <br>
         <button type="button" class="btn btn-danger mt-5"
-          onclick="app.controllers.gameController.punch()">Punch</button>
+          onclick="app.controllers.gameController.attackTarget('punch')">Punch</button>
         <br>
-        <button type="button" class="btn btn-danger mt-5" onclick="app.controllers.gameController.kick()">Kick</button>
+        <button type="button" class="btn btn-danger mt-5"
+          onclick="app.controllers.gameController.attackTarget('kick')">Kick</button>
 
       </div>
       <div class="col-md-6">

@@ -22,21 +22,9 @@ export default class GameController {
     draw()
   }
 
-  //Let service know that the user wants to slap the target
-  slap() {
-    _gameService.slap()
-    draw()
-  }
-
-  //Let service know that the user wants to punch the target
-  punch() {
-    _gameService.punch()
-    draw()
-  }
-
-  //Let service know that the user wants to kick the target
-  kick() {
-    _gameService.kick()
+  //Let service know that the user wants to attack the target
+  attackTarget(attack) {
+    _gameService.attackTarget(attack)
     draw()
   }
 }
